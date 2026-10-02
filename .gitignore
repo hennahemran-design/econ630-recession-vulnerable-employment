@@ -1,0 +1,16 @@
+# Secrets: API keys live here and must never be committed
+.env
+.env.*
+!.env.example
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Scratch files
+Test.ipy
+Test/Untitled-1.ipynb
